@@ -72,7 +72,7 @@ Modules in Go provide a way to manage dependencies and versioning for your proje
 
 Consider a project that requires the use of a third-party HTTP client library. By specifying the library as a dependency in the `go.mod` file, Go modules will ensure that the correct version of the library is downloaded and used in the project.
 
-````go
+```go
 // go.mod
 module example.com/myproject
 
@@ -84,6 +84,7 @@ require (
 ```
 
 ## Concurrency
+
 Concurrency is a fundamental feature of Go that allows multiple computations to execute simultaneously. Go provides robust support for concurrency through goroutines and channels.
 
 #### Goroutines
@@ -138,4 +139,7 @@ Enjoy learning Go and happy coding!
 ```
 
 ```
-````
+
+```
+
+```
