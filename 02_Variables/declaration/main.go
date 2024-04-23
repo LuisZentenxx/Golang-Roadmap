@@ -13,8 +13,11 @@ func main() {
 				Correct: variable name in CamelCase, first letter lowercase and following words uppercase: (var nameLanguage string)
 				Incorrect: variable name with all words capitalized: (var NameLanguage string)
 				Incorrect: variable name with underscore to separate words: (var Name_Language string)
-			- type (data type)
-			- value (variable value) [Optional]
+			- type (data type
+			- value (variable value)
+
+			- The ":=" operator is used to declare and initialize a variable at the same time.
+				It deduces the type of the variable based on the type of the value assigned to it.
 	*/
 
 	// variable not initialized
@@ -24,6 +27,11 @@ func main() {
 	var nameLanguage string = "Golang"
 
 	// Print the variable name
-	fmt.Println("This program is made in ", nameLanguage)
+	fmt.Println("This program is made in ", nameLanguage) // Expected output: "This program is made in Golang".
+
+	// variable declared and initialized with the operator ":=".
+	price := 3000
+
+	fmt.Println("The price is: ", price) // Expected output: "The price is 3000".
 
 }
