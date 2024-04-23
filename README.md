@@ -81,6 +81,7 @@ go 1.15
 require (
   github.com/ThirdParty/library v1.2.3
 )
+```
 
 ## Concurrency
 Concurrency is a fundamental feature of Go that allows multiple computations to execute simultaneously. Go provides robust support for concurrency through goroutines and channels.
