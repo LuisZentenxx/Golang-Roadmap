@@ -102,7 +102,7 @@ func main() {
 func doSomething() {
   // Perform some task concurrently
 }
-````
+```
 
 #### Channels
 
@@ -137,3 +137,4 @@ Enjoy learning Go and happy coding!
 ```
 
 ```
+````
