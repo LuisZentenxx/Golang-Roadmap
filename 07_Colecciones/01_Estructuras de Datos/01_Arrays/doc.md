@@ -36,3 +36,5 @@
 - **Convenciones:**
   - Es común utilizar nombres descriptivos para las variables que representan arrays multidimensionales.
   - Se recomienda mantener una estructura ordenada para facilitar la comprensión del código, especialmente en arrays con más de dos dimensiones.
+  
+#### Autor `Luis Zenteno`
