@@ -65,6 +65,6 @@ func main() {
 	n := 1
 
 	result := strings.Replace(s1, old, new, n)
-	fmt.Println("Resultado: ", result)
+	fmt.Println("Resultado: ", result) // Salida esperada: "Bienvenido, mundo! Esto es Golang!"
 
 }
