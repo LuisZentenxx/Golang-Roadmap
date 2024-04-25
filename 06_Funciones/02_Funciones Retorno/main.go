@@ -24,8 +24,8 @@ import "fmt"
      return valor.
 */
 
-// Función que devuelve un saludo
-func getGreeting() string {
+// Función que devuelve un mensaje
+func getMessage() string {
 	return "Esto es un ejemplo de funcion con retorno en Golang"
 }
 
@@ -38,7 +38,7 @@ func getProgrammingLangugage() string {
 
 func main() {
 
-	msg := getGreeting()
+	msg := getMessage()
 	fmt.Println(msg)
 
 	// lLamamos a la funcion getProgrammingLangugage y mostramos su resultado
