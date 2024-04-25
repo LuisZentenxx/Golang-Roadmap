@@ -4,30 +4,6 @@ import "fmt"
 
 func main() {
 
-	/*
-		Operadores
-		------------
-		[Operadores aritméticos]
-		- (+) equivale a suma
-		- (-) equivale a la resta
-		- (*) equivale a la multiplicación
-		- (/) equivale a la división
-		- (%) equivale al resto de una operación de división entre dos números. (módulo)
-
-		[Operadores de comparación]
-		- (==) equivale a igual
-		- (!=) equivale a diferente de
-		- (>) equivale a mayor que
-		- (<) equivale a menor que
-		- (>=) equivale a mayor o igual que
-		- (<=) equivale a menor o igual que
-
-		[Operadores lógicos]
-		- (&&) es equivalente a Y (AND) -> (a < 20) && (b > 2)
-		- (||) es equivalente a O (OR) -> (a < 20) || (b > 2)
-		- (!) es equivalente a NO (NOT) -> !(a == b)
-	*/
-
 	// Variables númericas
 	a := 20
 	b := 10
