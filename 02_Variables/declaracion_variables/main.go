@@ -5,21 +5,6 @@ import "fmt"
 
 func main() {
 
-	/*
-		Declaración de variables
-		-----------------------
-			- var (palabra clave para definir una variable)
-			- name (nombre de la variable)
-				Correcto: nombre de variable en CamelCase, primera letra en minúscula y siguientes palabras en mayúscula.: (var nombreLenguaje string)
-				Incorrecto: nombre de variable con todas las palabras en mayúsculas: (var nombrelenguaje string)
-				Incorrecto: nombre de variable con guión bajo para separar las palabras: (var Nombre_Lenguaje string)
-			- type (tipo de dato)
-			- value (valor de la variable)
-
-			- El operador ":=" se utiliza para declarar e inicializar una variable al mismo tiempo.
-				Deduce el tipo de la variable en función del tipo del valor que se le asigna.
-	*/
-
 	// Variable no inicializada al momento de declararla. (Se inicializa en la siguiente linea otorgando un valor númerico (25))
 	var age int
 	age = 25
